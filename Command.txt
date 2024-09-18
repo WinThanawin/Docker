@@ -1,0 +1,20 @@
+docker ps
+docker ps --all
+dockker run busybox echo 'hello world in docker!'
+docker stop (container id)
+docker run busybox
+docker create busybox ping google.com
+docker system prune (delete everything)
+docker exec (container id)
+docker exec -it (container id) sh
+docker exec -it (container id) bash
+docker run -p 80:80 nginx
+docker run -p 9000:80 nginx
+http://localhost:9000
+docker run --name mynginx -d -p 3000:80 nginx [naming port]
+docker logs
+docker logs -f
+docker system info
+docker system df
+docker images
+///upload on github desktop///
